@@ -4,9 +4,7 @@ import './App.css';
 import web3 from './web3';
 
 class App extends Component {
-  render() {
-    console.log(web3.version);
-
+  render() {    
     return (
       <div className="App">
         <header className="App-header">
